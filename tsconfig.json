@@ -1,25 +1,18 @@
 {
-  "name": "angular_start",
-  "version": "1.0.0",
-  "description": "basic angular project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adena-evam/angular_start.git"
-  },
-  "keywords": [
-    "angular",
-    "basic",
-    "angular",
-    "project"
-  ],
-  "author": "siva sankar reddy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adena-evam/angular_start/issues"
-  },
-  "homepage": "https://github.com/adena-evam/angular_start#readme"
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es5"
+    },
+    "exclude": [
+        "node_modules",
+        "typings/main",
+        "typings/main.d.ts"
+    ]
 }
